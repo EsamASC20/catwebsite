@@ -8,6 +8,17 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
+        <div class="topnav">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                        <a href="">About Us</a>
+                        <a href="">Credits</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         
         <div class="container">
             <img id="logo" src="images/Moewzer.PNG">
@@ -16,11 +27,14 @@
                     type="text"
                     name="searchBar"
                     id="searchBar"
-                    placeholder="search"
+                    placeholder="Search the Meowzer"
+                   
                 />
+                <button id="press">🔍</button>
             </div>
             <ul id="charactersList"></ul>
         </div>
+        <img src="images/cat.png" class="kitty">
         <div class="allMessages">
         <script src="script.js" defer></script>
         <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
